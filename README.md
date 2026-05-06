@@ -16,21 +16,10 @@ A hands‑on lab that walks through installing and configuring:
 Designed to prepare you for HelpDesk / IT support interviews and entry‑level sysadmin roles.
 
 ---
-
-## 📦 Included in the repo
-- 🛠 Lab setup guide (VM configuration, network layout)  
-- 🧾 PowerShell scripts: bulk user import, password reset, group sync  
-- 🧭 GPO examples and walkthroughs (password policy, drive maps, Windows Update, and more)
-- 🚨 Example incident response steps (disable compromised account, collect logs)  
-- 📸 Screenshots and verification steps
-
----
-
 ## 📥 Software downloads
-- 🔗 VirtualBox
-- 🔗 Windows Server Evaluation ISO (2019/2022)  
-- 🔗 Windows 10 / 11 Evaluation ISO (client VM)  
-- 🧰 PowerShell (latest recommended)  
+- 🔗 [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- 🔗 [Windows Server 2019 Evaluation ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019)  
+- 🔗 [Windows 10 Evaluation ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise)   
 ---
 
 ## 💾 System requirements
@@ -39,12 +28,22 @@ Designed to prepare you for HelpDesk / IT support interviews and entry‑level s
 
 ---
 
-## 🖥 Lab topology (quick)
-- DC01 — Windows Server (Domain Controller, DNS, DHCP optional)  
-- CLIENT01 — Windows 10/11 workstation (joined to the domain)  
-- Networking: NAT + Host‑Only adapters (single‑host mini‑enterprise)
+## 📘 Start Your Lab
+This project is divided into two parts:
+### 🔧 Lab Setup Guide:
+The Lab Setup Guide is here to help you setup your environment from scratch using Oracle Virtual Box. The guide to installtion is also inside it with screenshots.
+### 🎯 Basic HelpDesk task examples:
+The task example is here to make sure you know the basics of using an Active Directory, such as managing users, groups, OUs, and GPOs!
 
-(Full VM settings in the Lab Setup Guide.)
+---
+
+
+## 📦 Included in the repo
+- 🛠 Lab setup guide (VM configuration, network layout)  
+- 🧾 PowerShell scripts: bulk user import, password reset, group sync  
+- 🧭 GPO examples and walkthroughs (password policy, drive maps, Windows Update, and more)
+- 🚨 Example incident response steps (disable compromised account, collect logs)  
+- 📸 Screenshots and verification steps
 
 ---
 
